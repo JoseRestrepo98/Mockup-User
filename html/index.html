@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>transUbic | Movilidad que conecta contigo</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="icon" type="image/png" href="../img/logo-circular.png">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#">
+      <img src="../img/transubic-logo.png" alt="transUbic">
+      <span class="brand-name">trans<span>Ubic</span></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a class="active" href="#"><span>⌂</span> Inicio</a>
+      <a href="#">Rutas</a>
+      <a href="#">Paradas</a>
+      <a href="#">Horarios</a>
+      <a href="#">Tarifas</a>
+      <a href="#">Novedades</a>
+      <a href="#">Ayuda</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="language">◎ &nbsp; ES⌄</button>
+      <button class="account">● &nbsp; Mi cuenta</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Muévete mejor,<br><strong>llega a tu destino</strong></h1>
+        <p>Planifica tu viaje en bus de manera fácil,<br>rápida y confiable.</p>
+
+        <div class="search-card">
+          <div class="search-row">
+            <label class="field">
+              <span>⌾</span>
+              <div><small>Desde</small><strong>Ubicación actual</strong></div>
+              <b>⌾</b>
+            </label>
+
+            <button class="swap" aria-label="Intercambiar origen y destino">⇄</button>
+
+            <label class="field">
+              <span>⌖</span>
+              <div><small>Hasta</small><strong>¿A dónde vas?</strong></div>
+              <b>⌖</b>
+            </label>
+
+            <button class="search-btn">Buscar ruta</button>
+          </div>
+
+          <div class="quick-title">Búsquedas rápidas</div>
+          <div class="quick-links">
+            <button>▣ &nbsp; Terminal Sur</button>
+            <button>▦ &nbsp; Centro</button>
+            <button>◆ &nbsp; Universidad</button>
+            <button>♣ &nbsp; Parque Central</button>
+            <button>▣ &nbsp; Hospital General</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-label="Ilustración de transporte público">
+        <div class="sky"></div>
+        <div class="city">
+          <i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <div class="tree tree-a"></div>
+        <div class="tree tree-b"></div>
+        <div class="bus-stop"><span>⌁</span><div></div></div>
+        <div class="road road-back"></div>
+        <div class="road road-front"></div>
+        <div class="bus">
+          <div class="bus-top"></div>
+          <div class="bus-window w1"></div><div class="bus-window w2"></div>
+          <div class="bus-window w3"></div><div class="bus-window w4"></div>
+          <div class="bus-front"></div>
+          <div class="wheel wheel-a"></div><div class="wheel wheel-b"></div>
+        </div>
+        <div class="bus-sign">▣</div>
+      </div>
+    </section>
+
+    <section class="dashboard-grid">
+      <article class="panel routes-panel">
+        <div class="panel-head"><h2>Rutas más utilizadas</h2><a href="#">Ver todas</a></div>
+        <div class="route-list">
+          <a class="route-row" href="#"><span class="route-code blue">R10</span><span class="route-info"><b>Centro → Terminal Sur</b><small>18 paradas</small></span><span class="route-time">25 min<small>Tiempo estimado</small></span><span>›</span></a>
+          <a class="route-row" href="#"><span class="route-code green">M404</span><span class="route-info"><b>Oak St &amp; 5th Ave → Terminal Sur</b><small>22 paradas</small></span><span class="route-time">32 min<small>Tiempo estimado</small></span><span>›</span></a>
+          <a class="route-row" href="#"><span class="route-code lime">L12</span><span class="route-info"><b>South Terminal → Centro</b><small>16 paradas</small></span><span class="route-time">28 min<small>Tiempo estimado</small></span><span>›</span></a>
+          <a class="route-row" href="#"><span class="route-code sea">X55</span><span class="route-info"><b>Riverside Park → Centro</b><small>19 paradas</small></span><span class="route-time">27 min<small>Tiempo estimado</small></span><span>›</span></a>
+          <a class="route-row" href="#"><span class="route-code blue">X52</span><span class="route-info"><b>Ponford Dirt Ave → Centro</b><small>17 paradas</small></span><span class="route-time">30 min<small>Tiempo estimado</small></span><span>›</span></a>
+        </div>
+      </article>
+
+      <article class="panel planner-panel">
+        <div class="panel-head centered"><h2>Planifica tu viaje</h2></div>
+        <div class="mini-map">
+          <span class="line l1"></span><span class="line l2"></span><span class="line l3"></span><span class="line l4"></span>
+          <i class="dot d1"></i><i class="dot d2"></i><i class="dot d3"></i><i class="dot d4"></i><i class="dot d5"></i>
+          <div class="location-dot"></div>
+        </div>
+        <p>Consulta horarios, rutas y transbordos<br>para llegar a tu destino.</p>
+        <button class="primary-btn">⌘ &nbsp; Planificar viaje</button>
+      </article>
+
+      <div class="right-column">
+        <article class="panel service-panel">
+          <div class="panel-head"><h2>Estado del servicio</h2><a href="#">Ver todas</a></div>
+          <div class="service-ok">
+            <div class="check">✓</div>
+            <div><b>Servicio funcionando con normalidad</b><span>No hay novedades que afecten la operación.</span></div>
+          </div>
+          <div class="updated">Actualizado: Hoy, 8:30 a. m. <span>↻</span></div>
+        </article>
+
+        <article class="panel news-panel">
+          <div class="panel-head"><h2>Novedades del servicio</h2><a href="#">Ver todas</a></div>
+          <div class="news warning"><span>!</span><div><b>Desvío temporal en Calle 50</b><small>Por obras viales. Rutas R10 y M404 tomarán Carrera 48.</small></div><time>8:20 a. m.</time></div>
+          <div class="news info"><span>i</span><div><b>Horarios especiales</b><small>Domingo 26 de mayo por evento en el Centro.</small></div><time>7:45 a. m.</time></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="features">
+      <div><span>◔</span><div><b>Información en tiempo real</b><p>Consulta la ubicación de los buses y tiempos de llegada.</p></div></div>
+      <div><span>♧</span><div><b>Alertas personalizadas</b><p>Recibe notificaciones sobre tu ruta y novedades del servicio.</p></div></div>
+      <div><span>★</span><div><b>Guarda tus favoritos</b><p>Accede rápido a tus rutas, paradas y destinos frecuentes.</p></div></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="footer-pin">⌖</span><b>transUbic</b>, movilidad que conecta contigo.</div>
+    <div class="social">Síguenos en &nbsp; ● &nbsp; ◎ &nbsp; 𝕏 &nbsp; ▶</div>
+  </footer>
+</body>
+</html>
